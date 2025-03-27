@@ -52,4 +52,4 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
-/.vs/UOW/CopilotIndices/17.13.441.19478/CodeChunks.db-shm
+/.vs
