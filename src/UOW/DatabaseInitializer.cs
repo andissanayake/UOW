@@ -27,7 +27,7 @@ namespace UOW
                 IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'YourEntity2')
                 BEGIN
                     CREATE TABLE [dbo].[YourEntity2] (
-                        [Id] UNIQUEIDENTIFIER NOT NULL
+                        [Id] UNIQUEIDENTIFIER NOT NULL,
                         [Prop1]       TEXT     NOT NULL,
                         [Created] DATETIME NOT NULL,
                         [CreatedBy]   TEXT     NOT NULL,  
